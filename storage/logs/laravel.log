@@ -1,0 +1,29 @@
+[2025-03-01 01:23:46] local.ERROR: Command "migration" is not defined.
+
+Did you mean one of these?
+    make:migration
+    migrate
+    migrate:fresh
+    migrate:install
+    migrate:refresh
+    migrate:reset
+    migrate:rollback
+    migrate:status {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"migration\" is not defined.
+
+Did you mean one of these?
+    make:migration
+    migrate
+    migrate:fresh
+    migrate:install
+    migrate:refresh
+    migrate:reset
+    migrate:rollback
+    migrate:status at C:\\Users\\Alunos\\Desktop\\api-atvd1\\api-attvd1\\vendor\\symfony\\console\\Application.php:726)
+[stacktrace]
+#0 C:\\Users\\Alunos\\Desktop\\api-atvd1\\api-attvd1\\vendor\\symfony\\console\\Application.php(284): Symfony\\Component\\Console\\Application->find('migration')
+#1 C:\\Users\\Alunos\\Desktop\\api-atvd1\\api-attvd1\\vendor\\symfony\\console\\Application.php(193): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\Alunos\\Desktop\\api-atvd1\\api-attvd1\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\Alunos\\Desktop\\api-atvd1\\api-attvd1\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\Alunos\\Desktop\\api-atvd1\\api-attvd1\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#5 {main}
+"} 
